@@ -42,16 +42,19 @@ main img {
     border: 1px solid var(--backgorund-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float:right
+    float: right;
 }
+
 p {
     padding: 0;
 }
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: var(--text-align);
 }
+
 /* Class Selectors */
 .box {
     margin: 3rem;
@@ -64,11 +67,12 @@ footer {
 aside {
     width: 44em;
     text-align: center;
+    position: relative;
 }
 
 
 aside h2 {
-    position:absolute;
+    position: absolute;
     top: 233px;
     left: 660px;
     font-size: 13px;
