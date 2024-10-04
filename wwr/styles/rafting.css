@@ -11,6 +11,7 @@
     --contrast-paragraph-text-color: #ffffff;
     --descriptive-text-color:black;
     --opacity-background-color: rgba(29, 119, 237, 0.5);
+    --page-background-color: #9F5433;
 }
 
 body {
