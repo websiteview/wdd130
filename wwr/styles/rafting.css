@@ -1,0 +1,104 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root { 
+    
+    --heading-text-color: #27925b;
+    --paragraph-text-color:black;
+    --contrast-paragraph-text-color: #ffffff;
+    --descriptive-text-color:black;
+    --opacity-background-color: rgba(29, 119, 237, 0.5);
+}
+
+body {
+    max-width: 1440px;
+}
+
+h1 {
+   font-family: "Bebas Neue";
+   color: var(--heading-text-color);
+}
+
+h2 {
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    color: var(--heading-text-color);
+    margin: 1rem 0 1rem 0;
+}
+
+h3 {
+    font-family: "Bebas Neue";
+}
+
+p {
+    font-family: "Afacad Flux"; 
+    
+}
+
+a {
+    font-family: "Afacad Flux";
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--paragraph-text-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px; /* Ajusta según necesites */
+    color: #ffffff; /* Cambia el color según tu diseño */
+    background-color: rgba(0, 0, 0, 0.4) ;
+    z-index: 10; 
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 80px;
+
+
+}
+
+h4 {
+    font-family: "Afacad Flux";
+}
+
+article {
+    position: absolute;
+    bottom: 30px; /* Ajusta según necesites */
+    left: 50%; /* Ajusta según necesites */
+    transform: translateX(-50%);
+    background-color: var(--opacity-background-color); /* Fondo oscuro con opacidad */
+    color: white; /* Cambia el color del texto según tu diseño */
+    padding: 10px; /* Espacio interno para mejorar la legibilidad */
+    z-index: 10;
+    width: 80%;
+    margin-bottom: 35%;
+    border-radius: 1rem;
+
+}
+
+article img {
+    float: right ;
+    margin-left: 10px;
+    max-width: 200px;
+    height:auto;
+
+    
+}
+
+footer img {
+    width: 50px;
+}
