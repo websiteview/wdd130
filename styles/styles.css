@@ -10,27 +10,46 @@
 nav {
     background-color: var(--backgorund-color);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
 }
+
+.grid { 
+    display: grid;
+    align-items: center;
+    
+}
+
 main {
     max-width: 700px;
     padding-left: 1rem;
-
+    grid-column: 2/3;
+    margin: 1rem;
 }
+
 aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba( 0,0,0, 0.2);
-    padding: 1rem;
+    padding: 2rem;
     background-color: #eee;
     color: #333;
     text-align: var(--text-align);
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
+
 aside img {
     width: 200px;
     height: auto;
@@ -38,13 +57,17 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 20px;
+    top: 33px;
     left: 110px;
 }
 
 h1 {
     color: var(--backgorund-color);
     margin-bottom: 1rem;
+    margin-left: 1rem; 
+    font-size: 27px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid steelblue;
 }
 
 main img {
@@ -71,7 +94,7 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid rgba( 0,0,0, 0.3);
-    padding: 1rem;
+    /* padding: 1rem; */
     background-color: rgb(217, 223, 223);
     color: #000;
 }
@@ -80,6 +103,16 @@ footer {
     padding-left: 2rem;
 }
 
-.from {
-    padding-left: 1rem;
+/* .from {
+    padding-left: 1rem; coment because is not necessary 
+    grid-column: 1/2;
+    grid-row: 1/2;
+}  */
+
+/* Week04 updates*/
+
+header, .grid, footer {
+    max-width: 840px;
+    margin:0 auto;
 }
+
