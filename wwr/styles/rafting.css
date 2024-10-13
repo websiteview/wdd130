@@ -18,12 +18,47 @@ body {
     max-width: 1440px;
 }
 
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 3rem;
+    border-bottom: 1px solid #c0c0c0;
+
+}
+
+.logo {
+    max-width: 180px;
+    height: auto;
+    margin-left: 6rem;
+    margin-right: 1rem;
+
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    margin: 0 4rem;
+    
+    
+}
+
+.navigation a:hover {
+    color: #27925b;
+    font-weight: 700;
+    
+}
+
 h1 {
    font-family: "Bebas Neue";
    color: var(--heading-text-color);
 }
 
 h2 {
+    display: flex;
+    justify-content: center;
     font-family: "Bebas Neue";
     font-size: 40px;
     color: var(--heading-text-color);
@@ -41,13 +76,14 @@ p {
 
 a {
     font-family: "Afacad Flux";
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
     color: var(--paragraph-text-color);
 }
 
 .hero {
     position: relative;
+    margin-top: 2rem;
 }
 
 .hero img {
@@ -86,7 +122,7 @@ article {
     padding: 10px; /* Espacio interno para mejorar la legibilidad */
     z-index: 10;
     width: 80%;
-    margin-bottom: 35%;
+    margin-bottom: 25%;
     border-radius: 1rem;
 
 }
@@ -96,10 +132,112 @@ article img {
     margin-left: 10px;
     max-width: 200px;
     height:auto;
-
+    border-radius: 1rem;
     
 }
 
-footer img {
+.history {
+    text-align: center;
+    margin: 5rem;
+}
+
+.history h2 {
+    margin-bottom: 1rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+
+}
+
+.divider {
+    width: 2px;
+    height: 100px;
+    margin: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+ 
+.gallery_h2 {
+    text-align: center; /* Centrar el título */
+    width: 100%; /* Asegurar que el título ocupe todo el ancho */
+}
+
+.gallery_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    position: relative;
+    margin: 10px;
+
+}
+
+figure img {
+    max-width: 220px;
+    max-height: 250px;
+    display: block;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--opacity-background-color) ;
+    color: #ffffff;
+    font: italic;
+    text-align: center;
+    padding: 5px 0;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem;
+    margin-left: 17rem;
+}
+
+.author{
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.sociallinks {
+    display: flex;
+    align-items: center;
+}
+
+.sociallinks img {
     width: 50px;
+    height: auto;
+
+
+} 
+
+.sociallinks a {
+    margin-right: 15px;
 }
