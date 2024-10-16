@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 2.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    background-color: #eee;
+    display: grid;
+}
+
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+    padding: 0.8rem;
+}
+
+label {
+    margin: 0;
+    padding: 1rem 0 1rem;  
+}
+
+label:hover {
+   border: 25px;
+    color:navy;
+}
+
+
+.ind {
+    margin: 1px;
+    color: navy;
+    font-size: 1.5rem;
+}
+
+.questions {
+    display:flex;
+    align-items: baseline;
+
+}
+
+img {
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    color: white;
+    background-color: navy;
+    font-size: 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
