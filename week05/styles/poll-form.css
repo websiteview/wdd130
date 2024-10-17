@@ -47,10 +47,6 @@ legend {
 }
 
 
-label, input, button, select, textarea {
-    font-family: Roboto, Arial, sans-serif;
-    padding: 0.8rem;
-}
 
 label {
     text-align: right;
