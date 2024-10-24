@@ -241,3 +241,135 @@ footer {
 .sociallinks a {
     margin-right: 15px;
 }
+
+/* These are the styles for the contact us webpage */
+
+
+
+form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 50px;
+    width: 800px; 
+    
+}
+
+fieldset {
+    border: none; /* Sin borde en el fieldset */
+    margin: 10px 0;
+}
+
+legend {
+    font-family: "Bebas Neue";
+    color: #333; /* Color de texto gris oscuro */
+}
+
+.form-item {
+    margin-bottom: 15px; /* Espacio entre elementos */
+}
+
+.radio-item {
+    display: flex; /* Utiliza flexbox para los elementos dentro */
+    align-items: center; /* Alinea verticalmente al centro */
+    margin-bottom: 10px; /* Espacio entre cada radio button */
+    justify-content: space-between; /* Espacio entre el radio y la etiqueta */
+}
+
+.radio-item input[type="radio"] {
+    margin-right: 10px; /* Espacio a la derecha del radio button */
+    flex-shrink: 0; /* Evita que el radio button se reduzca */
+}
+
+.radio-item label {
+    flex-grow: 1; /* Permite que la etiqueta ocupe el espacio restante */
+}
+
+label {
+    display: block; /* Hace que el label ocupe toda la línea */
+    margin-bottom: 5px; /* Espacio entre el label y el input */
+    color: #555; /* Color de texto gris medio */
+}
+
+
+
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+input[type="checkbox"] {
+    width: 100%; /* Ocupa todo el ancho */
+    padding: 8px;
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto; /* Ancho automático para radio y checkbox */
+    margin-right: 10px; /* Espacio a la derecha */  
+} 
+
+
+.btn {
+    text-align: center; /* Centra el botón */
+}
+
+button {
+    background-color: #007BFF; /* Color de fondo azul */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+
+.contact-info {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 50px;
+    text-align: center; /* Centra el texto */
+    width: 300px; /* Ancho fijo */
+    margin-bottom: 40px; /* Espacio entre la info y el mapa */
+    margin-top: 40px;
+}
+
+.contact-info p {
+    margin: 10px 0; /* Espacio entre párrafos */
+    color: #555; /* Color de texto gris medio */
+}
+
+.contact-info p:hover {
+    text-decoration: underline;
+}
+
+.contact-info a {
+    color: #007BFF; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    font-size: large;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+
+iframe {
+    display: flex;
+    align-self: center;
+    border: 0; 
+    border-radius: 8px;
+}
+

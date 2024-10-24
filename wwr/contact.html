@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The content of this is focus on provide a form to the customers to fill out so we can reach out to them as soon as possible in other words a landing page, also a whatsapp, and email addres to contact us directly with a 24 hrs timeframe">
+    <meta name="author" content="Frinx Hanford Mendoza">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us White Water Rafting</title>
+</head>
+<body>
+    <header class="header">
+        <img src="images/logo.jpeg" alt="logo" class="logo">
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+          
+    <section class="gallery">
+        <h2>Contact Us</h2>
+        <div class="gallery_images">
+        <figure>
+            <img src="images/raftingimg1.jpg" alt="Tuapi River">
+            <figcaption>Tuapi River</figcaption>
+        </figure>
+        <figure>
+            <img src="images/raftingimg2.jpg" alt="Prinzapolka River">
+            <figcaption>Prinzapolka River</figcaption>
+        </figure>
+        <figure>
+            <img src="images/raftingimg3.jpeg" alt="Canyon of Somoto">
+            <figcaption>Canyon of Somoto</figcaption>
+        </figure>
+        </div>
+    </section>
+    <h2>Send Us A Message</h2>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <!--form elements go here-->
+            <div class="form-item column2">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <div class="form-item column1">
+                <label>Select your inquiry</label>
+                <div class="radio-item">
+                    <input type="radio" id="general" name="message" value="general">
+                    <label for="general">General Inquiry</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="reservation" name="message" value="reservation">
+                    <label for="reservation">Reservation Question</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="suggestion" name="message" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+            </div>
+        </fieldset>
+            <label for="feedback" id="places">Please write your inquiry:</label>
+                <textarea id="feedback" name="feedback" rows="4"
+                    placeholder="I would like to know..."></textarea>
+            <div class="form-item column1">
+                <label for="pet">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+        
+        <div class="btn">
+        <button type="submit">Submit Inquiry</button>
+        </div>
+    </form>
+    <div class="contact-info">
+        <p>White Water Rafting</p>
+        <Address>4357 Hickory Ridge Drive, Las Vegas, NV, 89101</Address>
+        <p>Phone: 999-999-9999</p>
+        <p class="email">Email: <a href="mailto:">whitewaterrafting@gmail.com</a></p>
+    </div>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13960.012488709097!2d-91.55873413991715!3d14.848868428394935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2sgt!4v1729223543778!5m2!1ses-419!2sgt"
+        width="350" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </main>
+    <footer>
+        <p class="author">&copy;2024 Rafting Company | Frinx Hanford Mendoza</p>
+        <nav class="sociallinks">
+            <a href="https://instagram.com">
+                <img src="images/instagramicon.svg" alt="Instagram">
+            </a>
+            <a href="https://tiktok.com">
+                <img src="images/tiktokicon.svg" alt="Tiktok">
+            </a>
+            <a href="https://whatsapp.com">
+                <img src="images/whatsappicon.svg" alt="WhatsApp">
+            </a>
+            <a href="https://facebook.com">
+                <img src="images/facebookicon.svg" alt="Facebook">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
