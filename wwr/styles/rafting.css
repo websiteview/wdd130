@@ -390,3 +390,25 @@ iframe {
     border-radius: 8px;
 }
 
+.last {
+    display: flex;
+    flex-direction: column; /* Cambiar a columna para apilar los elementos */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    padding: 2rem;
+    width: 82%;
+    
+}
+
+
+footer p:last-of-type {
+    margin-top: 10px;
+    
+    
+}
+
+footer p:last-of-type a {
+    color: #007BFF;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+}
